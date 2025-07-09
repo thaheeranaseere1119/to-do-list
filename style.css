@@ -1,8 +1,11 @@
 body {
   font-family: Arial, sans-serif;
-  background: #0c0c0c;
+  background-image: url("https://thumbs.dreamstime.com/b/desk-notepad-to-do-list-pens-light-pink-background-top-view-desk-notepad-to-do-list-pens-light-pink-125175912.jpg");
   margin: 0;
   padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -16,7 +19,10 @@ body {
   border-radius: 10px;
   width: 90%;
   max-width: 500px;
+  justify-content: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 230px;
+  opacity: 0.9;
 }
 
 h1 {
@@ -65,92 +71,6 @@ li {
 .task-text.completed {
   text-decoration: line-through;
   color: gray;
-}
-body {
-  font-family: Arial, sans-serif;
-  background: #f2f2f2;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  min-height: 100vh;
-}
-
-.container {
-  background: white;
-  margin-top: 50px;
-  padding: 20px;
-  border-radius: 10px;
-  width: 90%;
-  max-width: 500px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  text-align: center;
-}
-
-.input-section {
-  display: flex;
-  gap: 10px;
-}
-
-input[type="text"] {
-  flex: 1;
-  padding: 10px;
-  font-size: 16px;
-}
-
-button {
-  padding: 10px 15px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 20px;
-}
-
-li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #f9f9f9;
-  margin-bottom: 10px;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.task-text.completed {
-  text-decoration: line-through;
-  color: gray;
-}
-
-.task-actions button {
-  margin-left: 5px;
-  background-color: transparent;
-  border: none;
-  color: #007bff;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 600px) {
-  .input-section {
-    flex-direction: column;
-  }
-
-  button {
-    width: 100%;
-  }
 }
 
 .task-actions button {
